@@ -1,7 +1,6 @@
 import React from "react";
 
 import classes from "./Modal.module.css";
-import Aux from "../../../hoc/Auxiliary/Auxiliary";
 import Backdrop from "../Backdrop/Backdrop";
 
 const modal = (props) => {
@@ -17,7 +16,7 @@ const modal = (props) => {
       >
         {props.children}
       </div>
-      </React.Fragment>
+    </React.Fragment>
   );
 };
 
